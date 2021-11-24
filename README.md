@@ -1,17 +1,20 @@
 # ECE9065-Project
 
+### Author
 Jinyi Chen
 jchen856@uwo.ca
 
+
+### Check-List
 - [x] A project git
 - [x] A README file with
 * - [x] your name and email
-* - [ ] Project Check-list
+* - [x] Project Check-list
 * - [ ] a git log --all
 
-- [ ] A server.js (nodejs) file that serves an index.html written with
-* - [ ] that runs by “node server.js”
-* - [ ] external link: https://localhost:3000 views your SPA (index.html…)
+- [x] A server.js (nodejs) file that serves an index.html written with
+* - [x] that runs by “node server.js”
+* - [x] external link: https://localhost:3000 views your SPA (index.html…)
 - [ ] A d3 data display component using
 * - [ ] updatable data that is originally from a JSON file
 * - [ ] a join with enter, exit and transitions
@@ -30,3 +33,6 @@ jchen856@uwo.ca
 * - [ ] links to original sources / where you found the code
 ** - [ ] for my files, you can just refer to them by name (eg. data4njq.html)
 * - [ ] indicate how much different your code
+
+
+### git log
