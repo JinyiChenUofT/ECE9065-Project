@@ -9,9 +9,12 @@ const app = express()
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 // load files under folder public
 app.use(express.static('public'))
+
+const fileName = 'public/data.json';
+let rawdata = fs.readFileSync(fileName);
+let gameInfo = JSON.parse(rawdata);
 
 // routes
 app.get('/',function(req, res){
@@ -19,7 +22,7 @@ app.get('/',function(req, res){
 })
 
 app.get('/read', (req,res)=> {
-	res.json(termInfo)
+	res.json(gameInfo)
 })
 
 
