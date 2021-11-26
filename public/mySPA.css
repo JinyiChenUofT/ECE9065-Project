@@ -7,13 +7,26 @@
     text-align: center;
 }
 
-svg:hover{
+.social:hover{
     transform: scale(2);
 }
 
+#messages > text {
+  font-family:monospace;
+  font-weight:bold;
+  font-size:3rem;
+  padding: 2px;
+}
+#messages{
+  background-color: white;
+}
 
-
-/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_blog_layout */
+.experience{
+  margin-left: 20px;
+}
+/* template from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_blog_layout 
+   css 95% same, add 'border-radiu' to .card 
+*/
 * {
     box-sizing: border-box;
   }
@@ -78,3 +91,5 @@ svg:hover{
       padding: 0;
     }
   }
+
+

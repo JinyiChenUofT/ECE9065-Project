@@ -6,10 +6,10 @@ jchen856@uwo.ca
 
 
 ### Check-List
-- [x] A project git
-- [x] A README file with
+- [ ] A project git
+- [x] A README file with (in this order)
 * - [x] your name and email
-* - [x] Project Check-list
+* - [x] Project Check-list (this list filled in)
 * - [ ] a git log --all
 
 - [x] A server.js (nodejs) file that serves an index.html written with
@@ -19,23 +19,22 @@ jchen856@uwo.ca
 * - [ ] updatable data that is originally from a JSON file
 * - [ ] a join with enter, exit and transitions
 - [x] A non trivial css file with
-* - [x] Hover/focus/active codes
-* - [x] Borders with rounded corners
-* - [x] Gradient backgrounds
+* - [x] Hover/focus/active codes  -- public/mySPA.css line 10
+* - [x] Borders with rounded corners  -- public/mySPA.css line 54
+* - [x] Gradient backgrounds  -- public/mySPA.css line 1
 - [x] A least one unicode Emojis
-- [ ] A non-d3 svg that contains at least one:
-* - [ ] circle
+- [x] A non-d3 svg that contains at least one:
+* - [x] circle
 * - [x] path
-* - [ ] rect
-* - [ ] text
-* - [ ] element
+* - [x] rect
+* - [x] text element
 - [ ] HTML elements must include a least one
 * - [ ] Button
 * - [x] H1
-* - [ ] list (either ul or ol)
+* - [x] list (either ul or ol)
 * - [x] link
 * - [x] image
-- [ ] Javascript arrow functions
+- [x] Javascript arrow functions
 - [ ] In comments, show
 * - [ ] links to original sources / where you found the code, for my files, you can just refer to them by name (eg. data4njq.html)
 * - [ ] indicate how much different your code

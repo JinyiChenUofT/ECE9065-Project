@@ -1,4 +1,5 @@
-{
-    "emojis" : ["😀","😄","😆","😎"],
-    "highestMark" : "1"
-}
+[
+    { "message" : "I love three things in this world. Sun, Moon and You. Sun for morning, Moon for night, and You forever.", "name" : "The Twilight Saga"},
+    { "message" : "This is Jinyi, welcome to leave me a message.", "name" : "Jinyi Chen"},
+    { "message" : "Winter is coming.", "name" : "The words of House Stark"}
+]
