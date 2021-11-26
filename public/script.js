@@ -17,7 +17,22 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 let newData =  { message : newMsg, name : newUserName};
                 storedData.push(newData);
                 console.log(storedData);
+
+
+                const updateUrl = "/push"
+                fetch(updateUrl, {
+                    method: "POST",
+                    headers: {
+                        'Accept': 'application/json, text/plain, */*',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: newData
+                    })
+                }).then(response => response.json())
+
                 update(storedData)
+
             }
             
         })

@@ -14,7 +14,7 @@ app.use(express.static('public'))
 
 const fileName = 'public/data.json';
 let rawdata = fs.readFileSync(fileName);
-let gameInfo = JSON.parse(rawdata);
+let messageInfo = JSON.parse(rawdata);
 
 // routes
 app.get('/',function(req, res){
@@ -22,10 +22,18 @@ app.get('/',function(req, res){
 })
 
 app.get('/read', (req,res)=> {
-	res.json(gameInfo)
+	res.json(messageInfo)
 })
 
 
+app.post('/push', (req,res)=> {
+	console.log(">>post ...",req.body,req.query);
+	let message = req.body.message;
+	messageInfo.push(message);
+	res.json(messageInfo)
+    //res.sendStatus(200)
+	
+})
 
 
 // start the server listening for requests

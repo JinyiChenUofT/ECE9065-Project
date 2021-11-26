@@ -15,25 +15,25 @@ jchen856@uwo.ca
 - [x] A server.js (nodejs) file that serves an index.html written with
 * - [x] that runs by “node server.js”
 * - [x] external link: https://localhost:3000 views your SPA (index.html…)
-- [ ] A d3 data display component using
-* - [ ] updatable data that is originally from a JSON file
-* - [ ] a join with enter, exit and transitions
+- [x] A d3 data display component using
+* - [x] updatable data that is originally from a JSON file
+* - [x] a join with enter, exit and transitions
 - [x] A non trivial css file with
 * - [x] Hover/focus/active codes  -- public/mySPA.css line 10
-* - [x] Borders with rounded corners  -- public/mySPA.css line 54
+* - [x] Borders with rounded corners  -- public/mySPA.css line 69
 * - [x] Gradient backgrounds  -- public/mySPA.css line 1
-- [x] A least one unicode Emojis
+- [x] A least one unicode Emojis -- public/index.html line 83, 96
 - [x] A non-d3 svg that contains at least one:
-* - [x] circle
-* - [x] path
-* - [x] rect
-* - [x] text element
-- [ ] HTML elements must include a least one
-* - [ ] Button
-* - [x] H1
-* - [x] list (either ul or ol)
-* - [x] link
-* - [x] image
+* - [x] circle -- public/html-svgrepo-com.svg line 17
+* - [x] path -- public/index.html line 106
+* - [x] rect -- public/javascript-svgrepo-com.svg line 16
+* - [x] text element -- public/index.html line 89
+- [x] HTML elements must include a least one
+* - [x] Button -- public/index.html line 63
+* - [x] H1 -- public/index.html line 13
+* - [x] list (either ul or ol)  -- public/index.html line 27
+* - [x] link -- public/index.html line 105
+* - [x] image -- public/index.html line 85
 - [x] Javascript arrow functions
 - [ ] In comments, show
 * - [ ] links to original sources / where you found the code, for my files, you can just refer to them by name (eg. data4njq.html)
