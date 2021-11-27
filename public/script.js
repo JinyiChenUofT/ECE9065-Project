@@ -1,5 +1,5 @@
 let storedData;
-
+let index;
 document.addEventListener("DOMContentLoaded", ()=>{
     console.log("load js");
     const readUrl = "/read";
@@ -7,8 +7,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
     .then(response=>response.json())
     .then(data=>{
         storedData = data;
+        index = storedData.length;
+        console.log("index: ",index);
+        console.log("json data: ", data)
         // get the first 2 elements slice(0, 2), get the last two (-3, -1)
         update(storedData);
+    
         $("#newMessageButton").click(function(){
             newMsg = document.getElementById("inputMessage").value;
             newUserName = document.getElementById("inputUserName").value;
@@ -17,7 +21,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 let newData =  { message : newMsg, name : newUserName};
                 storedData.push(newData);
                 console.log(storedData);
-
+                index = storedData.length;
 
                 const updateUrl = "/push"
                 fetch(updateUrl, {
@@ -32,21 +36,30 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 }).then(response => response.json())
 
                 update(storedData)
-
+                
             }
             
+            
+        })
+        $("#prevMessageButton").click(function(){
+            index = index - 2
+            if (index<=1){
+                index = storedData.length;
+            }
+            update(storedData)
         })
     })
 })
 
 // from d3ourNames.html (https://publish.uwo.ca/~jmorey2/ece/d3/d3ourNames.html)
+// use same style for enter and update, data is different, remove directly for "exit" 
 const messageSection = d3.select('#messages')
             .attr('width', 800)
             .attr('height', 100);
   
   let update= data => {
     messageSection.selectAll('text')
-      .data( storedData.slice(-2), d => d.message )
+      .data( storedData.slice(0, index).slice(-2), d => d.message )
       .join(
         enter => enter.append('text')
             .attr('transform', (d,i) => `translate(${ 30 },${ 20+ i * 30 })`)
@@ -73,27 +86,4 @@ const messageSection = d3.select('#messages')
             .remove()
       )
   }
- 
-/*
-function update(data){
-    d3.select("#messages")
-    .selectAll("span")
-    .data(data.slice(-2), (d, i)=>data.message)
-    .join(
-        enter=>
-            enter.append("div")
-            .attr("class","card")
-            .append("span")
-            .text(function(d) { return d.message + " "+d.name; }),
-        update=>
-            update
-            .text(function(d) { return d.message + " "+d.name; })
-            .style("background", "yellow"),
-        exit=>
-            exit.remove()
 
-    )
-    
-}
-
-*/

@@ -1,4 +1,8 @@
 [
+    { "message" : "The greatest glory in living lies not in never falling, but in rising every time we fall.", "name" : "Nelson Mandela"},
+    { "message" : "Your time is limited, so don't waste it living someone else's life.", "name" : "Steve Jobs"},
+    { "message" : "If life were predictable it would cease to be life, and be without flavor.", "name" : "Eleanor Roosevelt"},
+    { "message" : "Life is what happens when you're busy making other plans.", "name" : "John Lennon"},
     { "message" : "I love three things in this world. Sun, Moon and You. Sun for morning, Moon for night, and You forever.", "name" : "The Twilight Saga"},
     { "message" : "This is Jinyi, welcome to leave me a message.", "name" : "Jinyi Chen"},
     { "message" : "Winter is coming.", "name" : "The words of House Stark"}

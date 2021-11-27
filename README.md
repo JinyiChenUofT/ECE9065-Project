@@ -27,17 +27,17 @@ jchen856@uwo.ca
 * - [x] circle -- public/html-svgrepo-com.svg line 17
 * - [x] path -- public/index.html line 106
 * - [x] rect -- public/javascript-svgrepo-com.svg line 16
-* - [x] text element -- public/index.html line 89
+* - [x] text element -- public/index.html line 84
 - [x] HTML elements must include a least one
-* - [x] Button -- public/index.html line 63
-* - [x] H1 -- public/index.html line 13
-* - [x] list (either ul or ol)  -- public/index.html line 27
-* - [x] link -- public/index.html line 105
-* - [x] image -- public/index.html line 85
-- [x] Javascript arrow functions
-- [ ] In comments, show
-* - [ ] links to original sources / where you found the code, for my files, you can just refer to them by name (eg. data4njq.html)
-* - [ ] indicate how much different your code
+* - [x] Button -- public/index.html line 62
+* - [x] H1 -- public/index.html line 12
+* - [x] list (either ul or ol)  -- public/index.html line 24
+* - [x] link -- public/index.html line 100
+* - [x] image -- public/index.html line 80
+- [x] Javascript arrow functions -- public/script.js line 60
+- [x] In comments, show
+* - [x] links to original sources / where you found the code, for my files, you can just refer to them by name (eg. data4njq.html) -- public/mySPA.css line 27, public/script.js line 54， public/index.html line 96, javascript-svgrepo-com.svg line 2, html-svgrepo-com.svg line 2, css-svgrepo-com.svg line 2, text-x-python-svgrepo-com.svg line 2
+* - [x] indicate how much different your code -- public/mySPA.css line 28, public/script.js line 55，public/index.html line 96, javascript-svgrepo-com.svg line 2, html-svgrepo-com.svg line 2, css-svgrepo-com.svg line 2, text-x-python-svgrepo-com.svg line 2
 
 
 ### git log

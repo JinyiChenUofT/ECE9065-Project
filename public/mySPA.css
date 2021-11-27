@@ -24,8 +24,8 @@
 .experience{
   margin-left: 20px;
 }
-/* template from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_blog_layout 
-   css 95% same, add 'border-radiu' to .card 
+/* layout template from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_blog_layout 
+   css 95% same, add 'border-radius' to .card 
 */
 * {
     box-sizing: border-box;
