@@ -6,11 +6,11 @@ jchen856@uwo.ca
 
 
 ### Check-List
-- [ ] A project git
+- [x] A project git
 - [x] A README file with (in this order)
 * - [x] your name and email
 * - [x] Project Check-list (this list filled in)
-* - [ ] a git log --all
+* - [x] a git log --all
 
 - [x] A server.js (nodejs) file that serves an index.html written with
 * - [x] that runs by “node server.js”
@@ -41,3 +41,45 @@ jchen856@uwo.ca
 
 
 ### git log
+
+commit 65f95d0e9c0498f382995802f0a5923a440a41d2
+Author: jinyichen <joeychen530@gmail.com>
+Date:   Fri Nov 26 20:20:05 2021 -0500
+
+    add new data, check list
+
+commit 11eccb8a97c451c03b1df45a6d8bd685cc747c4c
+Author: Jinyi Chen <jinyichen@Jinyis-MacBook-Air.local>
+Date:   Fri Nov 26 17:41:32 2021 -0500
+
+    save the data change, add line number for check list
+
+commit 85247ff023b41ba7e6f3faf29a7dc5880be1c867
+Author: jinyichen <joeychen530@gmail.com>
+Date:   Fri Nov 26 02:21:03 2021 -0500
+
+    add a d3.js to read message and allow user to post a message
+
+commit 706d9d83db096430dc43171bcc74498707d4e9d2
+Author: jinyichen <joeychen530@gmail.com>
+Date:   Thu Nov 25 09:36:12 2021 -0500
+
+    add a base template
+
+commit 095f714afed35cc0f3feb195eb63471be5f5b4b1
+Author: Jinyi Chen <jinyichen@Jinyis-MacBook-Air.local>
+Date:   Wed Nov 24 10:24:27 2021 -0500
+
+    first commit
+
+commit 409ccd8e32d2410655aba134bc4b583062c18d23
+Author: Jinyi Chen <22849870+JinyiChenUofT@users.noreply.github.com>
+Date:   Sun Nov 21 22:50:49 2021 -0500
+
+    Update README.md
+
+commit 8eaf62faf9b6c0afee9e8957c057c3750419a749
+Author: Jinyi Chen <22849870+JinyiChenUofT@users.noreply.github.com>
+Date:   Sun Nov 21 22:39:33 2021 -0500
+
+    Initial commit
