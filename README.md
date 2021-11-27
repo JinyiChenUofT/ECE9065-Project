@@ -40,7 +40,12 @@ jchen856@uwo.ca
 * - [x] indicate how much different your code -- public/mySPA.css line 28, public/script.js line 55，public/index.html line 96, javascript-svgrepo-com.svg line 2, html-svgrepo-com.svg line 2, css-svgrepo-com.svg line 2, text-x-python-svgrepo-com.svg line 2
 
 
-### git log
+## git log
+commit 3d028971bcba6752b7a43f41a869b2b6eceadbb6 (HEAD -> main)
+Author: jinyichen <joeychen530@gmail.com>
+Date:   Fri Nov 26 20:30:49 2021 -0500
+
+    add git log
 
 commit 65f95d0e9c0498f382995802f0a5923a440a41d2
 Author: jinyichen <joeychen530@gmail.com>
